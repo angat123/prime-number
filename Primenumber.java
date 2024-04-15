@@ -15,7 +15,7 @@ public class Primenumber {
 	  isPrime = false;
 	  }
 	else{
-	  for(i=2; i<number%2; i++) {
+	  for(i=2; i<number/2; i++) {
 	   int rem;
 	   rem = number% i;
 	   System.out.println(number + " % " + i + " = "+ rem);
